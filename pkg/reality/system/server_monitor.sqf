@@ -169,6 +169,9 @@ diag_log "HIVE: Starting";
 		
 	// # END OF STREAMING #
 
+// START beforeSetTime
+// END beforeSetTime
+	
 //Set the Time
 	//Send request
 	_key = "CHILD:307:";
@@ -197,3 +200,5 @@ allowConnection = true;
 // [_guaranteedLoot, _randomizedLoot, _frequency, _variance, _spawnChance, _spawnMarker, _spawnRadius, _spawnFire, _fadeFire]
 nul = [3, 4, (50 * 60), (15 * 60), 0.75, 'center', 4000, true, false] spawn server_spawnCrashSite;
 
+// START footer
+// END footer

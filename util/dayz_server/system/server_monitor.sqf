@@ -1,4 +1,6 @@
 []execVM "\z\addons\dayz_server\system\s_fps.sqf"; //server monitor FPS (writes each ~181s diag_fps+181s diag_fpsmin*)
+// START header
+// END header
 
 dayz_versionNo = 		getText(configFile >> "CfgMods" >> "DayZ" >> "version");
 dayz_hiveVersionNo = 	getNumber(configFile >> "CfgMods" >> "DayZ" >> "hiveVersion");
@@ -25,6 +27,9 @@ diag_log "HIVE: Starting";
 
 //Stream in objects
 	/* STREAM OBJECTS */
+	// START beginStreamObjects
+	// END beginStreamObjects
+	
 		//Send the key
 		_key = format["CHILD:302:%1:",dayZ_instance];
 		_result = _key call server_hiveReadWrite;
