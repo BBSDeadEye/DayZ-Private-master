@@ -1,7 +1,7 @@
-private ["_characterID","_minutes","_newObject","_playerID","_key"];
+private["_characterID","_minutes","_newObject","_playerID","_key"];
 //[unit, weapon, muzzle, mode, ammo, magazine, projectile]
 _characterID = 	_this select 0;
-_minutes =	_this select 1;
+_minutes =		_this select 1;
 _newObject = 	_this select 2;
 _playerID = 	_this select 3;
 _playerName = 	_this select 4;
