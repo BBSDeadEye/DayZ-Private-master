@@ -6,6 +6,7 @@ BIS_MPF_remoteExecutionServer = {
 	};
 };
 
+// START include
 BIS_Effects_Burn =			{};
 server_playerLogin =		compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_playerLogin.sqf";
 server_playerSetup =		compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_playerSetup.sqf";
@@ -18,6 +19,7 @@ server_playerSync =			compile preprocessFileLineNumbers "\z\addons\dayz_server\c
 zombie_findOwner =			compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\zombie_findOwner.sqf";
 server_updateNearbyObjects =	compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_updateNearbyObjects.sqf";
 server_spawnCrashSite  =    compile preprocessFileLineNumbers "\z\addons\dayz_server\compile\server_spawnCrashSite.sqf";
+// END include
 
 vehicle_handleInteract = {
 	private["_object"];
